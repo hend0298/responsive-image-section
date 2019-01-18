@@ -12,6 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: sans-serif;
+  background-color: #e2e2e2;
 }
 
 *, *::before, *::after {
@@ -19,7 +20,6 @@ html {
 }
 
 body {
-  background-color: #e2e2e2;
   margin: 0;
 }
 
@@ -40,7 +40,7 @@ a:hover {
 
 .btn {
   color: #fff;
-  padding: .5em .75em;
+  padding: .75em;
 }
 
 .img-flex {
@@ -92,7 +92,7 @@ img {
   }
 
   .content {
-    width: 45%;
+    width: 46%;
     text-align: left;
   }
 
@@ -117,5 +117,15 @@ img {
   html {
     font-size: 130%;
   }
+
+  section {
+    margin: 4.5rem 10rem;
+    text-align: center;
+  }
+
+  .content {
+    width: 47%;
+  }
+
 
 }
