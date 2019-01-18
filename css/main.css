@@ -85,6 +85,22 @@ img {
     line-height: 1.4;
   }
 
+  .img-flex {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+  }
+
+  .content {
+    width: 45%;
+    text-align: left;
+  }
+
+  section {
+    display: flex;
+    margin-top: 2rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
