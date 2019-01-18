@@ -31,5 +31,35 @@ a {
   border-radius: 4px;
   color: #fff;
   padding: 0.5em 0.75em;
+}
+
+.img-flex {
+  display: flex;
+  padding: 1rem 0;
+}
+
+section {
+  margin: 0 0.5rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+img {
+    margin-top: 0.5rem;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+html {
+  font-size: 100%;
+  line-height: 1.3;
+}
+
+
+
 
 }
